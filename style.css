@@ -1,0 +1,79 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+    background-color:#2F3E46;
+    text-align: center;
+    color: #CAD2C5;
+}
+h1{
+    margin-top: 5vmin;
+}
+.container{
+    /* it'll be a dynamic height such that however much of our page is visible this container will take up 70% of it  */
+    height:70vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #84A98C;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color: #CAD2C5;
+}
+
+#reset-btn{
+    padding:1rem;
+    font-size:1.5rem;
+    color:#354F52 ;
+    background-color: #CAD2C5;
+    border:none;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+}
+#new-btn{
+    padding:1rem;
+    font-size:1.5rem;
+    color:#354F52 ;
+    background-color: #CAD2C5;
+    border:none;
+    box-shadow: 0 0 2rem rgba(0,0,0,0.3);
+    border-radius: 0.5rem;
+    margin-top: 8vmin;
+}
+
+#msg{
+    color: #CAD2C5;
+    font-size: 6vmin;
+    margin-top: 4vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.hide{
+   display: none;
+}
+
+
