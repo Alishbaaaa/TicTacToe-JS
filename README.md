@@ -2,6 +2,8 @@
 
 This is a simple Tic Tac Toe game built using HTML, CSS, and JavaScript.
 
+![Tic-Tac-Toe Preview](TicTacToe1.png)
+![Tic-Tac-Toe Preview](TicTacToe2.png)
 ## Features
 
 - Play against a friend 
